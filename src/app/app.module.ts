@@ -25,7 +25,7 @@ import { MyCounterComponent } from './my-counter/my-counter.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot({count : counterReducer}) //? Ajout du StoreModule.forRoot dans les imports.
+    StoreModule.forRoot({count : counterReducer}) //? Ajout du StoreModule.forRoot dans les imports. count est notre reducer. (notre countReducer)
   ],
   providers: [],
   bootstrap: [AppComponent]
